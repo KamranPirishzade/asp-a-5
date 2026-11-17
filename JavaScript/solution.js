@@ -20,4 +20,14 @@ for (let read = 0; read < length; read++) {
 }
 length = write;
 
+write = 0;
+for (let read = 0; read < length; read++) {
+  const position = read + 1;
+  if (position % 2 === 0) {
+    numbers[write] = numbers[read];
+    write++;
+  }
+}
+length = write;
+
 console.log(numbers.subarray(0, length).join(" "));
