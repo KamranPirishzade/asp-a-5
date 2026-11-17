@@ -30,5 +30,3 @@ while (length > 1) {
 }
 
 console.log(numbers[0]);
-
-console.log(numbers[0]);
