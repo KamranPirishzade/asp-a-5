@@ -13,7 +13,7 @@ echo 10 | node JavaScript/solution.js
 echo 10 | runghc Haskell/Main.hs
 ```
 
-Both programs print `3`. You need Node.js and GHC (which includes `runghc`).
+Both programs print `3`. You need Node.js and GHC (which includes `runghc`). I tested with Node.js 24.21.0 and GHC 9.14.1.
 
 ## JavaScript (imperative)
 
